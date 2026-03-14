@@ -1,0 +1,9 @@
+{
+  "name": "gamehub-monorepo",
+  "private": true,
+  "workspaces": ["apps/backend", "apps/mobile", "packages/shared"],
+  "scripts": {
+    "backend:dev": "cd apps/backend && npm run dev",
+    "backend:test": "cd apps/backend && npm test"
+  }
+}
